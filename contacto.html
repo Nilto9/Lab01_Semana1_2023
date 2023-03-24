@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contacto</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+      .contenedor{
+        max-width: 120rem;
+        margin: 0 auto;
+        width: 95%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Playfair Display";
+        letter-spacing: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w3-top">
+      <div
+        class="w3-bar w3-white w3-padding w3-card"
+        style="letter-spacing: 4px"
+      >
+        <a href="/" class="w3-bar-item w3-button">Perú Fusión 16</a>
+        <div class="w3-right w3-hide-small">
+          <a href="/catalogo" class="w3-bar-item w3-button">Catalogo</a>
+          <a href="/contacto" class="w3-bar-item w3-button">Contacto</a>
+          <a href="/nosotros" class="w3-bar-item w3-button">Nosotros</a>
+          <a href="/servicios" class="w3-bar-item w3-button">Servicios</a>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-64" id="contact">
+      <h1>Contacto</h1>
+      <br />
+      <p>
+        Ofrecemos un servicio personalizado, de acuerdo a tus requerimientos y
+        necesidades.
+      </p>
+      <p class="w3-text-blue-grey w3-large">
+        <b>Servicio de comida rapida, Lima, Peru</b>
+      </p>
+      <p>
+        Puedes contactarnos por nuestro telefono 987654321, o puedes escrbirnos
+        directamente por aqui, completando el siguiente formulario:
+      </p>
+      <form action="/" target="_blank">
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Nombre"
+            required
+            name="Name"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="number"
+            placeholder="Cantidad de Personas"
+            required
+            name="People"
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="date"
+            placeholder="Fecha"
+            required
+            name="date"
+            value=""
+          />
+        </p>
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Requerimientos Especiales"
+            required
+            name="Message"
+          />
+        </p>
+        <p>
+          <button class="w3-button w3-light-grey w3-section" type="submit">
+            Enviar Mensaje
+          </button>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
